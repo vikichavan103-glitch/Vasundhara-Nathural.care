@@ -1,0 +1,167 @@
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:linear-gradient(to bottom,#f6fff8,#eaf7f0);
+color:#2d3a2e;
+}
+html{
+scroll-behavior:smooth;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:#fff;
+position:sticky;
+top:0;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+.logo-area{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.logo{
+height:55px;
+mix-blend-mode:multiply;
+}
+
+.brand{
+font-size:22px;
+font-weight:600;
+}
+
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:#2d3a2e;
+font-weight:500;
+}
+
+section{
+padding:70px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.hero{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+justify-content:space-between;
+}
+
+.hero img{
+max-width:350px;
+width:100%;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.btn{
+display:inline-block;
+background:#3a7d44;
+color:#fff;
+padding:14px 28px;
+border-radius:30px;
+text-decoration:none;
+margin-top:15px;
+}
+
+.card{
+background:#fff;
+padding:25px;
+border-radius:18px;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+margin-top:20px;
+}
+
+.grid{
+display:grid;
+gap:25px;
+}
+
+.benefits{
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+}
+
+.slider{
+position:relative;
+max-width:500px;
+margin:auto;
+}
+
+.slide{
+display:none;
+}
+
+.slide img{
+width:100%;
+border-radius:20px;
+}
+
+
+.old{
+color:#999;
+text-decoration:line-through;
+font-size:18px;
+margin-left:10px;
+}
+
+form input, form textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border-radius:10px;
+border:1px solid #ccc;
+font-family:Poppins;
+}
+
+form button{
+background:#2e7d32;
+color:white;
+border:none;
+padding:14px;
+width:100%;
+border-radius:30px;
+font-size:16px;
+cursor:pointer;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25d366;
+color:#fff;
+padding:15px 18px;
+border-radius:50px;
+font-weight:600;
+text-decoration:none;
+box-shadow:0 6px 15px rgba(0,0,0,.2);
+}
+
+footer{
+color:rgb(4, 92, 52);
+text-align:center;
+padding:40px 20px;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+gap:10px;
+}
+
+footer h3{
+margin:0;
+font-size:24px;
+}
+
+footer p{
+margin:0;
+font-size:16px;
+}
